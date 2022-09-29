@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(./Pizza\ Pizzeria2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    cursor: url(https://raw.githubusercontent.com/AdityaTrivedi14/Pizza-Website/master/final/cursor.png), auto;
+}
+
+
+nav{
+    display: flex;
+       justify-content: center;
+}
+ul{
+    list-style: none;
+       display: inline;
+}
+ul li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.content{
+    position: absolute;
+    top: 27vh;
+    left: 10%;
+    width: 33%;
+}
+.content h1{
+    font-size: 60px;
+}
+
+
+
+hr{
+    margin-top: 30px;
+    width: 20%;
+    height: 6px;
+ 
+    background: #000;
+}
+.content p{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+.content{color: #ddd;}
+h4{color: #ddd;}
+
+
+button{
+    margin-top: 20px;
+    background: #dfa167;
+    border: none;
+    outline: none;
+    letter-spacing: .04em;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+
+
+button:hover{background-color: white;}
+li:hover{background-color: rgb(121, 113, 113);}
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(250, 242, 242);
+    text-align: center;
+    padding: 0px ;
+    text-decoration: none;
+  }
+  
+ li{  color:white ;}
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color:rgb(77, 74, 74);
+    color: white;
+    text-align: center;
+    padding: 9px;
+ }
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  width:1200px;
+  margin:100px auto;
+}
+.title{
+  text-align:center;
+  margin-bottom:60px;
+}
+.title h4{
+  text-transform:capitalize;
+  font-size:36px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:10px;
+}
+.title h4 span{
+  display:block;
+  font-size:18px;
+  font-style:italic;
+  margin-bottom:10px;
+}
+.title h4:before{
+  position:absolute;
+  content:"";
+  width:100px;
+  height:2px;
+  background-color:#ff7720;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+}
+.menu{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.single-menu{
+  flex-basis:580px;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  border-bottom:1px solid #ddd;
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+  border-bottom:0;
+}
+.single-menu{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  color: #ddd;
+}
+/* .single-menu:hover img{ */
+  /* border-radius:0; */
+
+ .single-menu img{
+  height:200px ;
+    width:200px ;
+  max-width:180px;
+  margin-right:30px;
+  border-radius:50%;
+  border:1px solid #ddd;
+  padding:3px;
+  /* transition:.5s; */
+} 
+.single-menu h4{
+  text-transform:capitalize;
+  font-size:22px;
+  border-bottom:1px dashed #333;
+  margin-bottom:5px;
+  padding-bottom:5px;
+}
+.single-menu h4 span{
+  float:right;
+  color:#ff7720;
+  font-style:italic;
+}
+html{ scroll-behavior: smooth;}
+    
+    img{height: 400px ;
+    width:550px ;
+  display: flex;
+  margin-right: 50px;
+float:right;}
+
+
+
+
+
